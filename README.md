@@ -24,8 +24,7 @@ reads the same Postgres table and creates a pandas dataframe out of it, modifies
 #### write_df_to_postgres.py 
 writes these 3 dataframes to 3 separate tables located in Postgres server.
 
-
-######To get started, make sure to install the required dependencies using `pip`:
+To get started, make sure to install the required dependencies using `pip`:
 
 ```bash
 psycopg
@@ -37,6 +36,25 @@ pandasql
 urllib3
 traceback2
 apache-airflow
+
+
+### Apache Airflow
+Run the following command to clone the necessary repo on your local
+
+git clone https://github.com/dogukannulu/docker-airflow.git
+After cloning the repo, run the following command only once:
+
+docker build --rm --build-arg AIRFLOW_DEPS="datadog,dask" --build-arg PYTHON_DEPS="flask_oauthlib>=0.9" -t puckel/docker-airflow .
+Then run the following command:
+
+docker-compose -f docker-compose-LocalExecutor.yml up -d
+Now you have a running Airflow container and you can reach out to that on https://localhost:8080. If there is No module: ... error, you can access to bash with the following command:
+
+docker exec -it <container_id> /bin/bash 
+Then:
+
+pip install <necessary libraries>
+After all these, we can move all .py files under dags folder in docker-airflow repo.
 
 
 
@@ -56,18 +74,9 @@ Then, we will get the data from the table. After some modifications and ```panda
 
 In the end, we will get these 3 data frames, create related tables in the PostgreSQL database, and insert the data frames into these tables with ```write_df_to_postgres.py ```
 
-To get started, make sure to install the required dependencies using `pip`:
 
-```bash
-psycopg
-pandas
-apache-airflow
-datetime
-requests
-pandasql
-urllib3
-traceback2
-apache-airflow
+
+
 
 ## The overveux
 
