@@ -42,7 +42,7 @@ apache-airflow
 ### Apache Airflow
 Run the following command to clone the necessary repo on your local
 ```bash
-git
+git https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/tree/main
 ```
 After cloning the repo, run the following command only once:
 ```bash
@@ -51,7 +51,7 @@ docker build --rm --build-arg AIRFLOW_DEPS="datadog,dask" --build-arg PYTHON_DEP
 Then run the following command:
 ```bash
 docker-compose -f docker-compose-LocalExecutor.yml up -d
-```bash
+```
 Now you have a running Airflow container and you can reach out to that on '''https://localhost:8082'''.
 
 
