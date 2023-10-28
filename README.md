@@ -21,8 +21,22 @@ gets a csv file from a URL. Saves it into the local working directory as churn_m
 #### create_df_and_modify.py 
 reads the same Postgres table and creates a pandas dataframe out of it, modifies it. Then, creates 3 separate dataframes.
 
-##### write_df_to_postgres.py 
+#### write_df_to_postgres.py 
 writes these 3 dataframes to 3 separate tables located in Postgres server.
+
+
+######To get started, make sure to install the required dependencies using `pip`:
+
+```bash
+psycopg
+pandas
+apache-airflow
+datetime
+requests
+pandasql
+urllib3
+traceback2
+apache-airflow
 
 
 
