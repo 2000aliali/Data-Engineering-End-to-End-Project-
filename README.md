@@ -4,6 +4,19 @@ This ETL (Extract, Transform, Load) project demonstrates the process of getting 
 ### THE workflow
 ![screenshot]()
 
+### Technologies Used
+The following technologies and tools were used in this project:
+
+#### Python: 
+For data extraction and transformation.
+#### Apache Airflow: 
+To orchestrate the ETL pipeline.
+##### Docker: 
+To run the Apache Airflow instance in a container
+#### Pandas:
+For data manipulation 
+
+
 
 
 
