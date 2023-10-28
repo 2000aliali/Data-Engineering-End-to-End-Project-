@@ -35,26 +35,24 @@ requests
 pandasql
 urllib3
 traceback2
-apache-airflow```
+apache-airflow
+```
 
 
 ### Apache Airflow
 Run the following command to clone the necessary repo on your local
-
-git clone https://github.com/dogukannulu/docker-airflow.git
+```bash
+git
+```
 After cloning the repo, run the following command only once:
-
+```bash
 docker build --rm --build-arg AIRFLOW_DEPS="datadog,dask" --build-arg PYTHON_DEPS="flask_oauthlib>=0.9" -t puckel/docker-airflow .
+```
 Then run the following command:
-
+```bash
 docker-compose -f docker-compose-LocalExecutor.yml up -d
-Now you have a running Airflow container and you can reach out to that on https://localhost:8080. If there is No module: ... error, you can access to bash with the following command:
-
-docker exec -it <container_id> /bin/bash 
-Then:
-
-pip install <necessary libraries>
-After all these, we can move all .py files under dags folder in docker-airflow repo.
+```bash
+Now you have a running Airflow container and you can reach out to that on '''https://localhost:8082'''.
 
 
 
