@@ -1,5 +1,17 @@
 # Data-Engineering-End-to-End-Project
+This ETL (Extract, Transform, Load) project demonstrates the process of getting data from a remote repo , transforming it using L``` PythonL``` , orchestrating the data pipeline withL```  Apache AirflowL```  (running in a L``` Docker containerL``` ), loading the transformed data into  ```PostgreSQL .``` 
 ## Overview
+### THE workflow
+![screenshot]()
+
+
+
+
+
+
+
+
+
 In this article, we are going to get a CSV file from a remote repo, download it to the local working directory, create a local ```PostgreSQL``` table, and write this``` CSV ```data to the PostgreSQL table with ``` write_csv_to_postgres.py ```script.
 
 Then, we will get the data from the table. After some modifications and ```pandas ``` practices, we will create 3 separate data frames with the ```create_df_and_modify.py script.```
@@ -18,3 +30,6 @@ pandasql
 urllib3
 traceback2
 apache-airflow
+
+## The overveux
+
