@@ -42,7 +42,7 @@ apache-airflow
 ### Apache Airflow
 Run the following command to clone the necessary repo on your local
 ```bash
-git https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/tree/main
+git git clone https://github.com/dogukannulu/docker-airflow.git
 ```
 After cloning the repo, run the following command only once:
 ```bash
