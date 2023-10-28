@@ -1,6 +1,8 @@
 # Data-Engineering-End-to-End-Project
 ## Overview
-In this article, we are going to get a CSV file from a remote repo, download it to the local working directory, create a local ```PostgreSQL``` table, and write this``` CSV ```data to the PostgreSQL table with ```bash write_csv_to_postgres.py script.
+In this article, we are going to get a CSV file from a remote repo, download it to the local working directory, create a local ```PostgreSQL``` table, and write this``` CSV ```data to the PostgreSQL table with 
+```bash
+ write_csv_to_postgres.py script.
 
 Then, we will get the data from the table. After some modifications and ```pandas ``` practices, we will create 3 separate data frames with the```bash
 create_df_and_modify.py
