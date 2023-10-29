@@ -39,33 +39,34 @@ apache-airflow
 ```
 
 
-### Apache Airflow
-Run the following command to clone the necessary repo on your local
-```bash
-git git clone https://github.com/dogukannulu/docker-airflow.git
-```
-After cloning the repo, run the following command only once:
-```bash
-docker build --rm --build-arg AIRFLOW_DEPS="datadog,dask" --build-arg PYTHON_DEPS="flask_oauthlib>=0.9" -t puckel/docker-airflow .
-```
-Then run the following command:
-```bash
-docker-compose -f docker-compose-LocalExecutor.yml up -d
-```
-Now you have a running Airflow container and you can reach out to that on '''https://localhost:8082'''.
+## Airflow Container
+
+You now have a running Airflow container, which can be accessed at [https://localhost:8082](https://localhost:8082).
+
 ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/air.png)
 
-##### Resultant Output: 
+#### Resultant Output
+
 ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/img_exe.png)
-#### Additionally:
--   the first table :
-![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post1.png )
--  the seconde table
-  ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post2.png)
--  the third table :
- ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post3.png)
-the froth table :
- ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/pos%204.png)
+
+### Additional Tables:
+
+1. **First Table**
+   
+   ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post1.png)
+
+2. **Second Table**
+
+   ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post2.png)
+
+3. **Third Table**
+
+   ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post3.png)
+
+4. **Fourth Table**
+
+   ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/pos%204.png)
+
 
 
 
