@@ -1,5 +1,5 @@
 # Data-Engineering-End-to-End-Project
-This ETL (Extract, Transform, Load) project demonstrates the process of getting data from a remote repo , transforming it using L``` Python``` , orchestrating the data pipeline with```  Apache Airflow```  (running in a ``` Docker containerL``` ), loading the transformed data into  ```PostgreSQL .``` 
+This ETL (Extract, Transform, Load) project demonstrates the process of getting data from a remote repo , transforming it using ``` Python``` , orchestrating the data pipeline with```  Apache Airflow```  (running in a ``` Docker containerL``` ), loading the transformed data into  ```PostgreSQL ``` .
 ## Overview
 ### THE workflow
 ![screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/Img1.png)
