@@ -18,7 +18,7 @@ try:
          host="localhost",
         database="dbdata",  # Replace with your database name
         user="postgres",               # Assuming your username is postgres
-        password="Aliel2000@",
+        password="your pass word bro ",
         port="5432" 
     )
     cur = conn.cursor()
