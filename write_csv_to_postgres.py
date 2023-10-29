@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO,
 postgres_host = os.environ.get('postgres_host')
 postgres_database = os.environ.get('postgres_database')
 postgres_user = os.environ.get('postgres_user')
-postgres_password = os.environ.get('Aliel2000@')
+postgres_password = os.environ.get('your password bro')
 postgres_port = os.environ.get('postgres_port')
 dest_folder = os.environ.get('dest_folder')
 
