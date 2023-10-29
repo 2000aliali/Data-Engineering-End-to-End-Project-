@@ -56,7 +56,7 @@ Now you have a running Airflow container and you can reach out to that on '''htt
 ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/air.png)
 
 ##### Resultant Output: 
-![Screenshot](https://github.com/2000aliali/Simple-ETL-Project-/blob/main/image3.png)
+![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/img_exe.png)
 #### Additionally:
 ![Screenshot](https://github.com/2000aliali/Simple-ETL-Project-/blob/main/image%202.png )
 
