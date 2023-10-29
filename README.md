@@ -53,6 +53,7 @@ Then run the following command:
 docker-compose -f docker-compose-LocalExecutor.yml up -d
 ```
 Now you have a running Airflow container and you can reach out to that on '''https://localhost:8082'''.
+![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/air.png)
 
 ##### Resultant Output: 
 ![Screenshot](https://github.com/2000aliali/Simple-ETL-Project-/blob/main/image3.png)
