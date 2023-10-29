@@ -22,7 +22,7 @@ try:
         host="localhost",
         database="dbdata",  # Replace with your database name
         user="postgres",               # Assuming your username is postgres
-        password="Aliel2000@",
+        password="your password bro",
         port="5432" 
        
     )
