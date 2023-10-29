@@ -58,11 +58,14 @@ Now you have a running Airflow container and you can reach out to that on '''htt
 ##### Resultant Output: 
 ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/img_exe.png)
 #### Additionally:
--   the first table 
+-   the first table :
 ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post1.png )
 -  the seconde table
-  ![Screenshot]()
-
+  ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post2.png)
+-  the third table :
+ ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post3.png)
+the froth table :
+ ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post4.png)
 
 
 
