@@ -65,7 +65,7 @@ Now you have a running Airflow container and you can reach out to that on '''htt
 -  the third table :
  ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post3.png)
 the froth table :
- ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/post4.png)
+ ![Screenshot](https://github.com/2000aliali/Data-Engineering-End-to-End-Project-/blob/main/pos4.png)
 
 
 
